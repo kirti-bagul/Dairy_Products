@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Dahi</title>
+    <style>
+
+      .button1{
+        background-color:#368BC1;
+        text-decoration: none;
+        color:black;
+        font-size: medium;
+      
+      } 
+  
+      .button {
+        background-color:#368BC1;
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        
+        }
+  
+   .page-footer{
+    background-color:#368BC1;
+   }
+  
+   .footer-copyright{
+    background-color:black;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    
+    padding-top: 25px;
+   }
+  
+  .card-body{
+          background-color:#368BC1;
+        }
+        .zoom:hover img {
+     
+    transform: scale(1.2); 
+  }
+        .btn1{
+          width:fit-content;
+          font-size: larger;
+           padding-right: 200px;
+          background-color:#368BC1 ;
+          text-align: center;
+          
+        }
+        .btn2{
+          width:fit-content;
+          font-size: larger;
+          padding-left: 200px;
+          background-color:white ;
+          text-align: center;
+        }
+         ul.no-bullets{
+           list-style-type: none;
+         }
+        .navbar-custom
+        {
+          background-color:#368BC1;
+        }
+      </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-custom navbar-light navbar-expand-lg  py-3 fixed-top">
+     <div class="container">
+     <a href="#" class="navbar-brand">Education4ol</a>
+         <button class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+         >
+          <span class="navbar-toggler-icon"></span>
+         </button>
+     <div class="collapse navbar-collapse" id="navmenu">
+
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#Create Account" class="nav-link">Create Account</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#Login" class="nav-link">Login</a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="#Help" class="nav-link">Help</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Help" class="nav-link"><i class="bi bi-cart3"></i></a>
+          </li>
+        </ul>
+     </div>
+     </div>
+     
+    </nav>
+
+
+    <!--heading-->
+    <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+
+      <div class="container">
+          <div class="d-sm-flex" align-items-center justify-content-between>
+              <div>
+                <ul class="list-unstyled">
+                  <li class="list-inline-item" style="padding-top:5px">
+                    <p class="lead my-4" >
+                <small><b><i class="bi bi-telephone-fill"></i> Order online or call us :+91 2412970071<br> 
+                      <i class="bi bi-envelope-fill"></i> Email us: support@Education4ol.in<br>  
+                      <i class="bi bi-clock"></i> Working Hours: 10 AM - 6 PM<br></b>
+                      </p></small> 
+                  </li>
+             
+              </div>
+            
+             
+           <li style="padding: 50px 0px 0px 150px" class="list-inline-item">
+           <h1>Education4ol</h1>
+          </li> 
+          <li style="padding:60px 0px 0px 250px" class="list-inline-item">
+            
+            <div class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Search for product">
+              <button class="btn  btn-secondary" type="button" >Search</button>
+            </div>
+        
+          </li>
+
+        </ul>
+      </div>
+      </div>
+  
+    
+  </section>
+   
+    <!--second navbar-->
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-light ">
+    <div class="container">
+      
+    <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+          
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item nav-link" style="padding-top:12px">
+             <a href="home.html" class="nav-link"><b>Home</b></a>
+            </li>
+
+
+            <li class="nav-item nav-link" >
+                <div class="dropdown">
+                    <button type="button" class="btn btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+                      Dairy Products
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="cheese.html">Cheese</a></li>
+                      <li><a class="dropdown-item" href="butter.html">Butter</a></li>
+                      <li><a class="dropdown-item" href="ghee.html">Ghee</a></li>
+                      <li><a class="dropdown-item" href="dahi.html">Dahi</a></li>
+                      <li><a class="dropdown-item" href="milk.html">Milk</a></li>
+                      <li><a class="dropdown-item" href="milkb.html">Milk beverages</a></li>
+                      <li><a class="dropdown-item" href="mayo.html">Mayonnaise</a></li>
+                      <li><a class="dropdown-item" href="Shrikhand.html">Shrikhand And Amrakhand</a></li>
+                      <li><a class="dropdown-item" href="gulab.html">Gulab Jamun Mix</a></li>
+                    </ul>
+            
+        </li>
+          
+        <li class="nav-item nav-link">
+            <div class="dropdown">
+                <button type="button" class="btn btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+                  Fruits And Vegetables
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+        
+        </li>
+        <li class="nav-item nav-link">
+            <div class="dropdown">
+                <button type="button" class="btn btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+                  Fast Food
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            
+        
+        </li>
+        <li class="nav-item nav-link" >
+            <div class="dropdown">
+                <button type="button" class="btn btn-lg dropdown-toggle" data-bs-toggle="dropdown">
+                  Gulab Jamun Mix
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Link 1</a></li>
+                  <li><a class="dropdown-item" href="#">Link 2</a></li>
+                  <li><a class="dropdown-item" href="#">Link 3</a></li>
+                </ul>
+            
+        </li>
+
+</div>
+</div>
+</nav>
+
+<!--cards-->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-info text-light" style="width:21rem">
+                <div class="card-body text-center">
+                <div class="h1">
+                  <img src="dahi1.jpg" width="200" height="200">
+                </div>
+                 <h5 class="card-title"mb-3>
+                     Amul Premium Dahi
+                 </h5>
+                 <p class="card-text">
+                    Rs. 60.00
+                 </p>
+                 <a href="#" class="btn btn-lg">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        
+            <div class="col-md">
+                <div class="card bg-info text-light" style="width:21rem">
+                    <div class="card-body text-center">
+                    <div class="h1">
+                      <img src="dahi2.jpg" width="200" height="200">
+                    </div>
+                     <h5 class="card-title"mb-3>
+                         Low Fat Dahi
+                     </h5>
+                     <p class="card-text">
+                         Rs. 40.00
+                     </p>
+                     <a href="#" class="btn btn-lg">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            
+            <div class="col-md">
+                <div class="card bg-info text-light" style="width:21rem">
+                    <div class="card-body text-center">
+                    <div class="h1">
+                      <img src="dahi3.jpg" width="200" height="200">
+                    </div>
+                     <h5 class="card-title"mb-3>
+                         Desi Natural Dahi
+                     </h5>
+                     <p class="card-text">
+                         Rs. 50.00
+                     </p>
+                     <a href="#" class="btn btn-lg">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  </section>
+  
+<!-- Footer -->
+<footer class="page-footer">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Registered Address</h5>
+        <p>Reg. Office : Ganesh Foods<br>
+           Plot No. P - 12, M.I.D.C.,<br>
+           Ahmednagar Industrial Area,<br>
+           Ahmednagar - 414111<br>
+           Maharashtra, India</p>
+
+      </div>
+      <!-- Grid column -->
+
+      
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ABOUT US</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="" class="button1"> Our Story</a>
+          </li>
+          <li>
+            <a href="" class="button1">  Contact Us</a>
+          </li>
+          <li>
+            <a href="" class="button1">  Careers</a>
+          </li>
+          <li>
+            <a href="" class="button1"> Franchisee</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">LEGAL</h5>
+
+        <ul class="list-unstyled">
+          <li class="list-inline-item">
+           <a href="" class="button1">Terms and Conditions</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="" class="button1"> Privacy Policy</a>
+          </li>
+          <li>
+            <a href="" class="button1">Return Policy</a>
+          </li>
+          <li>
+            <a href="" class="button1">Certificates</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">help</h5>
+
+        <ul class="list-unstyled">
+          
+          <li>
+            <i class="bi bi-envelope-fill"></i> Support@milkyocean.in
+          </li>
+          <li>
+       <i class="bi bi-clock"></i>Working Hours:10AM -6PM
+          </li>
+          <li>
+            <i class="bi bi-telephone-fill"></i> +91 2412970071
+          </li>
+         
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  
+
+ 
+
+  
+
+  <!-- Social buttons -->
+  <div class="d-sm-flex" align-items-center justify-content-between></div>
+  <ul class="list-unstyled text-center">
+    <li class="list-inline-item">
+      <a>
+        <i class="bi bi-facebook"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a>
+        <i class="bi bi-twitter"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a>
+        <i class="bi bi-google"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a>
+        <i class="bi bi-linkedin"> </i>
+      </a>
+    </li>
+    <li class="list-inline-item">
+      <a>
+        <i class="bi bi-youtube"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+ 
+  <!-- Social buttons -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright"> | Designed and Developed by KIRTI BAGUL
+    
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+     
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+
+
+
+</body>
+</html>
